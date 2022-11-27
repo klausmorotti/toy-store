@@ -1,0 +1,7 @@
+.fieldset {
+    display:flex;
+    flex-direction:column;
+}
+.fieldset textarea {
+    margin:10px 0;
+}
