@@ -17,12 +17,12 @@ export type UserInitialType = {
 export const UserInitialValue:UserInitialType = {
     name:'Klaus',
     lastName:'Morotti',
-    cpf:'486.986.228-01',
-    email:'klausazevedo123@gmail.com',
+    cpf:'176.554.896-01',
+    email:'klaus@hotmail.com.br',
     age:18,
-    city:'Araçatuba',
-    tel:'(18) 99692-8982',
-    cep:'16071-165'
+    city:'Rio de Janeiro',
+    tel:'(21) 99784-8989',
+    cep:'16070-480'
 }
 
 export const UserReducer = (state:UserInitialType, action:ReducerActionType) => {
